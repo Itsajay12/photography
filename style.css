@@ -2,3 +2,30 @@
     margin:0;
     padding: 0;
 }
+#header{
+    background-color: black;
+}
+.hero-section {
+    
+  
+    background: url(images/hero_man1.png.webp) no-repeat right ;
+
+    object-fit: contain;
+}
+.hero-2{
+    background: url(images/brand_shape.png.webp) no-repeat  ;
+    object-fit: contain;
+
+}
+.nav-link {
+    color: white !important ;
+    padding-right: 80px !important;
+}
+.float-end{
+    padding-left: 20rem !important;
+}
+.btn-outline{
+    width: 150px;
+    border-radius: 0px;
+   
+}
