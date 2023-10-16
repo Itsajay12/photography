@@ -32,7 +32,8 @@
 }
 
 .btn-outline {
-    width: 150px;
+    width: 200px;
+    height: 60px;
     border-radius: 0px;
 
 }
@@ -51,4 +52,10 @@
 
 .hc {
     margin-top: 210rem !important;
+}
+#section1{
+    background-color: #121212;
+}
+.about-shape{
+    
 }
