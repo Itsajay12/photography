@@ -60,3 +60,29 @@
 .about-shape{
     
 }
+#section2{
+    background-color: #0e0e0e;
+    width: 1920px;
+    height: 931.7px;
+}
+.blog{
+   
+}
+.blog-img{
+    width: 400px;
+    height: 476px;
+}
+.blog a{
+    text-decoration: none;
+    color: white;
+}
+.blog p{
+    line-height: 30px;
+    color: white;
+}
+.section3 img{
+    object-fit: cover;
+    width: 800px;
+    height: 685px;
+}
+
