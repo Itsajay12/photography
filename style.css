@@ -114,5 +114,10 @@
 
   
   }
+ 
 
-
+.carousel-inner{
+    width: 850px;
+    height: 553px;
+    padding-top: 10rem;
+}
