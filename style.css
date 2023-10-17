@@ -85,4 +85,11 @@
     width: 800px;
     height: 685px;
 }
+#section4{
+    background-color: #121212;
+    color: white;
+}
+.award{
+    border: 2px solid rgba(128, 116, 116, 0.664);
+}
 
