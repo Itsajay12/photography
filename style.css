@@ -85,6 +85,9 @@
     width: 800px;
     height: 685px;
 }
+#section3 img:hover{
+    background-color: red;
+}
 #section4{
     background-color: #121212;
     color: white;
@@ -118,10 +121,18 @@
 
 .carousel-inner{
     width: 850px;
-    height: 553px;
+    height: 800px;
     padding-top: 10rem;
 }
 #section6{
     background-color: #0e0e0e;
 
+}
+.blog-cont{
+    height: 100px;
+    width: 300px;
+    background-color: #181515;
+    color: white;
+  
+ 
 }
