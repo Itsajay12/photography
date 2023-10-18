@@ -1,4 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+/* Common styles for all screen sizes */
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +12,6 @@
 }
 
 .hero-section {
-
-
     background: url(images/hero_man1.png.webp) no-repeat right;
     width: 100%;
     height: 100%;
@@ -21,7 +21,6 @@
 .hero-2 {
     background: url(images/brand_shape.png.webp) no-repeat;
     object-fit: contain;
-
 }
 
 .nav-link {
@@ -37,14 +36,12 @@
     width: 200px;
     height: 60px;
     border-radius: 0px;
-
 }
 
 .hero-main {
     color: rgb(216, 65, 65);
     font-weight: 500;
     font-size: 2em;
-
 }
 
 .hero-content {
@@ -55,87 +52,93 @@
 .hc {
     margin-top: 210rem !important;
 }
-#section1{
+
+#section1 {
     background-color: #121212;
 }
 
-
-#section2{
+#section2 {
     background-color: #0e0e0e;
-    width: 1920px;
-    height: 931.7px;
 }
 
-.blog-img{
-    width: 400px;
-    height: 476px;
+.blog-img {
+    width: 100%;
+    height: auto;
 }
-.blog a{
+
+.blog a {
     text-decoration: none;
     color: white;
 }
-.blog p{
+
+.blog p {
     line-height: 30px;
     color: white;
 }
-.section3 img{
+
+.section3 img {
     object-fit: cover;
-    width: 800px;
-    height: 685px;
+    width: 100%;
+    height: auto;
 }
-#section3 img:hover{
-    background-color: red;
-}
-#section4{
+
+#section4 {
     background-color: #121212;
     color: white;
 }
-.award{
+
+.award {
     border: 2px solid rgba(128, 116, 116, 0.664);
 }
-#section5{
+
+#section5 {
     background-color: #121212;
     color: white;
-    width: 1920px;
-    height: 683px;
 }
-
-
 
 .carousel {
-    width: 1070px;
-  
-    height: 323px;
-  
+    width: 100%;
+    height: auto;
     display: flex;
-  
     justify-content: center;
-  
     align-items: center;
+}
 
-  
-  }
- 
-
-.carousel-inner{
-    width: 850px;
-    height: 800px;
+.carousel-inner {
+    width: 100%;
+    height: auto;
     padding-top: 10rem;
 }
-#section6{
-    background-color: #0e0e0e;
 
+#section6 {
+    background-color: #0e0e0e;
 }
-.blog-cont{
-    height: 100px;
-    width: 300px;
+
+.blog-cont {
     background-color: #181515;
     color: white;
-  
- 
 }
-#footer{
+
+#footer {
     background-color: #121212;
-    width: 1920px;
-    height: 460px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 991px) {
+    .float-end {
+        padding-left: 0 !important;
+    }
+    .nav-link {
+        padding-right: 40px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        font-size: 3rem;
+    }
+    .hc {
+        margin-top: 0 !important;
+        padding-top: 100px;
+    }
 }
